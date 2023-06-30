@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body::selection {
+    background: white;
+}
+
+body {
+    background: #131313;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.links {
+    font-family: 'Broken Detroit', sans-serif;
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+
+.links p a {
+    transition: 0.5s;
+}
+
+.links p a:hover {
+    background-color: #13131338;
+    padding: 10px 15px;
+}
+
+.header {
+    background-image: url(../imgs/background\ \(2\).png);
+}
+
+.new {
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+    font-family: 'Lexend Giga', sans-serif;
+    font-size: 54px;
+}
+
+.jun {
+    text-align: center;
+    color: white;
+    font-family: 'Broken Detroit', sans-serif;
+    font-size: 230px;
+    letter-spacing: 16px;
+    margin-top: 100px;
+    font-weight: 300;
+}
+
+.img {
+    margin-top: -250px;
+    text-align: center;
+}
+
+.crystal {
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.crystal2 {
+    margin-top: -100px;
+    text-align: center;
+    margin-right: 800px;
+}
+
+.des {
+    color: white;
+    text-align: center;
+    font-family: 'Lexend Giga', sans-serif;
+    font-size: 17px;
+    margin-top: 100px;
+}
+
+.char {
+    font-family: 'Broken Detroit', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 7px;
+    font-weight: 300;
+}
+
+.char span {
+    color: #99449F;
+}
+
+.wrap6,
+.wrap5,
+.wrap4,
+.wrap3,
+.wrap2,
+.wrap1 {
+    width: 400px;
+}
+
+.col-2,
+.col {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.col-2 {
+    margin-top: 50px;
+}
+
+.heading {
+    color: white;
+    font-family: 'Broken Detroit', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.cardes {
+    color: white;
+    text-align: center;
+    font-family: 'Lexend Giga', sans-serif;
+    font-weight: 400;
+}
+
+.hist {
+    font-family: 'Broken Detroit', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+.hist span {
+    color: #99449F;
+}
+
+.sec4,
+.sec3,
+.sec2,
+.sec1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cardss {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Broken Detroit', sans-serif;
+    margin-top: 50px;
+    font-size: 60px;
+}
+
+.cardss span {
+    color: #99449F;
+}
+
+.frag6,
+.frag5,
+.frag4,
+.frag3,
+.frag2,
+.frag1 {
+    display: flex;
+    justify-content: center;
+}
+
+.frags {
+    margin-top: 60px;
+}
+
+.fight {
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+    font-family: 'Broken Detroit', sans-serif;
+    font-weight: 300;
+    font-size: 96px;
+}
+
+.butt {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.but {
+    color: white;
+    font-family: 'Broken Detroit', sans-serif;
+    font-size: 30px;
+    background-color: #131313;
+    padding: 15px 30px;
+    border: none;
+    transition: 0.5s;
+    border: 3px solid white;
+}
+
+.but:hover {
+    border-radius: 15px;
+}
+
+.era {
+    font-size: 16px;
+    font-family: 'Lexend Giga', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.cyb {
+    font-family: 'Broken Detroit', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+
+.rights {
+    color: white;
+}
+
+.rights {
+    text-align: center;
+    margin-top: -50px;
+    font-family: 'Lexend Giga', sans-serif;
+}
+
+.year {
+    color: #99449F;
+    margin-top: 10px;
+}
+
+.bottom {
+    margin-top: 60px;
+}
+
+.social {
+    display: flex;
+    color: rgb(0, 0, 0);
+    justify-content: right;
+    margin-top: -30px;
+    margin-right: 20px;
+    gap: 20px;
+}
+
+.fa-tiktok,
+.fa-twitter,
+.fa-youtube,
+.fa-discord,
+.fa-facebook,
+.fa-twitch,
+.fa-instagram {
+    background-color: #99449F;
+    padding: 10px 10px;
+    border-radius: 4px;
+}
