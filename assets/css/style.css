@@ -1,270 +1,714 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-
-body::selection {
-    background: white;
-}
-
-body {
-    background: #131313;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-.links {
-    font-family: 'Broken Detroit', sans-serif;
-    display: flex;
-    gap: 30px;
-    font-size: 30px;
-    text-align: center;
-    justify-content: center;
-    color: white;
-    cursor: pointer;
-}
-
-.links p a {
-    transition: 0.5s;
-}
-
-.links p a:hover {
-    background-color: #13131338;
-    padding: 10px 15px;
-}
-
-.header {
-    background-image: url(../imgs/background\ \(2\).png);
-}
-
-.new {
-    text-align: center;
-    color: white;
-    margin-top: 150px;
-    font-family: 'Lexend Giga', sans-serif;
-    font-size: 54px;
-}
-
-.jun {
-    text-align: center;
-    color: white;
-    font-family: 'Broken Detroit', sans-serif;
-    font-size: 230px;
-    letter-spacing: 16px;
-    margin-top: 100px;
-    font-weight: 300;
-}
-
-.img {
-    margin-top: -250px;
-    text-align: center;
-}
-
-.crystal {
-    text-align: right;
-    margin-right: 50px;
-    margin-top: 50px;
-}
-
-.crystal2 {
-    margin-top: -100px;
-    text-align: center;
-    margin-right: 800px;
-}
-
-.des {
-    color: white;
-    text-align: center;
-    font-family: 'Lexend Giga', sans-serif;
-    font-size: 17px;
-    margin-top: 100px;
-}
-
-.char {
-    font-family: 'Broken Detroit', sans-serif;
-    color: white;
-    text-align: center;
-    font-size: 60px;
-    letter-spacing: 7px;
-    font-weight: 300;
-}
-
-.char span {
-    color: #99449F;
-}
-
-.wrap6,
-.wrap5,
-.wrap4,
-.wrap3,
-.wrap2,
-.wrap1 {
-    width: 400px;
-}
-
-.col-2,
-.col {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    gap: 150px;
-}
-
-.col-2 {
-    margin-top: 50px;
-}
-
-.heading {
-    color: white;
-    font-family: 'Broken Detroit', sans-serif;
-    letter-spacing: 5px;
-    font-weight: 300;
-    text-align: center;
-}
-
-.cardes {
-    color: white;
-    text-align: center;
-    font-family: 'Lexend Giga', sans-serif;
-    font-weight: 400;
-}
-
-.hist {
-    font-family: 'Broken Detroit', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    color: white;
-    font-size: 60px;
-    margin-top: 100px;
-}
-
-.hist span {
-    color: #99449F;
-}
-
-.sec4,
-.sec3,
-.sec2,
-.sec1 {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.cardss {
-    color: white;
-    text-align: center;
-    font-weight: 300;
-    font-family: 'Broken Detroit', sans-serif;
-    margin-top: 50px;
-    font-size: 60px;
-}
-
-.cardss span {
-    color: #99449F;
-}
-
-.frag6,
-.frag5,
-.frag4,
-.frag3,
-.frag2,
-.frag1 {
-    display: flex;
-    justify-content: center;
-}
-
-.frags {
-    margin-top: 60px;
-}
-
-.fight {
-    text-align: center;
-    color: white;
-    margin-top: 200px;
-    font-family: 'Broken Detroit', sans-serif;
-    font-weight: 300;
-    font-size: 96px;
-}
-
-.butt {
-    text-align: center;
-    margin-top: 100px;
-}
-
-.but {
-    color: white;
-    font-family: 'Broken Detroit', sans-serif;
-    font-size: 30px;
-    background-color: #131313;
-    padding: 15px 30px;
-    border: none;
-    transition: 0.5s;
-    border: 3px solid white;
-}
-
-.but:hover {
-    border-radius: 15px;
-}
-
-.era {
-    font-size: 16px;
-    font-family: 'Lexend Giga', sans-serif;
-    font-weight: 400;
-    color: white;
-}
-
-.cyb {
-    font-family: 'Broken Detroit', sans-serif;
-    font-weight: 300;
-    color: white;
-    font-size: 24px;
-    letter-spacing: 5px;
-    margin-top: 10px;
-}
-
-.rights {
-    color: white;
-}
-
-.rights {
-    text-align: center;
-    margin-top: -50px;
-    font-family: 'Lexend Giga', sans-serif;
-}
-
-.year {
-    color: #99449F;
-    margin-top: 10px;
-}
-
-.bottom {
-    margin-top: 60px;
-}
-
-.social {
-    display: flex;
-    color: rgb(0, 0, 0);
-    justify-content: right;
-    margin-top: -30px;
-    margin-right: 20px;
-    gap: 20px;
-}
-
-.fa-tiktok,
-.fa-twitter,
-.fa-youtube,
-.fa-discord,
-.fa-facebook,
-.fa-twitch,
-.fa-instagram {
-    background-color: #99449F;
-    padding: 10px 10px;
-    border-radius: 4px;
-}
+        * {
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            background: #131313;
+        }
+        
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .links {
+            font-family: 'Broken Detroit', sans-serif;
+            display: flex;
+            gap: 30px;
+            font-size: 30px;
+            text-align: center;
+            justify-content: center;
+            color: white;
+            cursor: pointer;
+        }
+        
+        .links p a {
+            transition: 0.5s;
+            animation: movedown 1s;
+        }
+        
+        .links p a:hover {
+            background-color: #13131338;
+            padding: 10px 15px;
+        }
+        
+        .header {
+            background-image: url(../imgs/background\ \(2\).png);
+            height: 100%;
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        
+        .new {
+            text-align: center;
+            color: white;
+            margin-top: 150px;
+            font-family: 'Lexend Giga', sans-serif;
+            font-size: 54px;
+        }
+        
+        .jun {
+            text-align: center;
+            color: white;
+            font-family: 'Broken Detroit', sans-serif;
+            font-size: 230px;
+            letter-spacing: 16px;
+            margin-top: 100px;
+            font-weight: 300;
+        }
+        
+        .img {
+            margin-top: -250px;
+            text-align: center;
+            animation: appear 2s;
+        }
+        
+        .crystal {
+            text-align: right;
+            margin-right: 50px;
+            margin-top: 50px;
+        }
+        
+        .crystal2 {
+            margin-top: -100px;
+            text-align: center;
+            margin-right: 800px;
+        }
+        
+        .des {
+            color: white;
+            text-align: center;
+            font-family: 'Lexend Giga', sans-serif;
+            font-size: 17px;
+            margin-top: 100px;
+        }
+        
+        .char {
+            font-family: 'Broken Detroit', sans-serif;
+            color: white;
+            text-align: center;
+            font-size: 60px;
+            letter-spacing: 7px;
+            font-weight: 300;
+        }
+        
+        .char span {
+            color: #99449F;
+        }
+        
+        .wrap6,
+        .wrap5,
+        .wrap4,
+        .wrap3,
+        .wrap2,
+        .wrap1 {
+            width: 400px;
+        }
+        
+        .col-2,
+        .col {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            gap: 150px;
+        }
+        
+        .col-2 {
+            margin-top: 50px;
+        }
+        
+        .heading {
+            color: white;
+            font-family: 'Broken Detroit', sans-serif;
+            letter-spacing: 5px;
+            font-weight: 300;
+            text-align: center;
+        }
+        
+        .cardes {
+            color: white;
+            text-align: center;
+            font-family: 'Lexend Giga', sans-serif;
+            font-weight: 400;
+        }
+        
+        .hist {
+            font-family: 'Broken Detroit', sans-serif;
+            font-weight: 300;
+            text-align: center;
+            color: white;
+            font-size: 60px;
+            margin-top: 100px;
+        }
+        
+        .hist span {
+            color: #99449F;
+        }
+        
+        .sec4,
+        .sec3,
+        .sec2,
+        .sec1 {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .cardss {
+            color: white;
+            text-align: center;
+            font-weight: 300;
+            font-family: 'Broken Detroit', sans-serif;
+            margin-top: 50px;
+            font-size: 60px;
+        }
+        
+        .cardss span {
+            color: #99449F;
+        }
+        
+        .frag6,
+        .frag5,
+        .frag4,
+        .frag3,
+        .frag2,
+        .frag1 {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .frags {
+            margin-top: 60px;
+        }
+        
+        .fight {
+            text-align: center;
+            color: white;
+            margin-top: 200px;
+            font-family: 'Broken Detroit', sans-serif;
+            font-weight: 300;
+            font-size: 96px;
+        }
+        
+        .butt {
+            text-align: center;
+            margin-top: 100px;
+        }
+        
+        .but {
+            color: white;
+            font-family: 'Broken Detroit', sans-serif;
+            font-size: 30px;
+            background-color: #131313;
+            padding: 15px 30px;
+            border: none;
+            transition: 0.5s;
+            border: 3px solid white;
+        }
+        
+        .but:hover {
+            border-radius: 15px;
+        }
+        
+        .era {
+            font-size: 16px;
+            font-family: 'Lexend Giga', sans-serif;
+            font-weight: 400;
+            color: white;
+            margin-left: 10px;
+        }
+        
+        .cyb {
+            font-family: 'Broken Detroit', sans-serif;
+            font-weight: 300;
+            color: white;
+            font-size: 24px;
+            letter-spacing: 5px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        
+        .rights {
+            color: white;
+        }
+        
+        .rights {
+            text-align: center;
+            margin-top: -50px;
+            font-family: 'Lexend Giga', sans-serif;
+        }
+        
+        .year {
+            color: #99449F;
+            margin-top: 10px;
+        }
+        
+        .bottom {
+            margin-top: 60px;
+        }
+        
+        .social {
+            display: flex;
+            color: rgb(0, 0, 0);
+            justify-content: right;
+            margin-top: -30px;
+            margin-right: 20px;
+            gap: 20px;
+        }
+        
+        .fa-tiktok,
+        .fa-twitter,
+        .fa-youtube,
+        .fa-discord,
+        .fa-facebook,
+        .fa-twitch,
+        .fa-instagram {
+            background-color: #99449F;
+            padding: 10px 10px;
+            border-radius: 4px;
+        }
+        
+        span {
+            animation: blick 1.5s infinite;
+        }
+        
+        .ani {
+            opacity: 0;
+            transition: all 0.8s ease-out;
+        }
+        
+        .scroll-animation {
+            opacity: 1;
+        }
+        
+        .buttshow {
+            text-align: center;
+        }
+        
+        .butshow {
+            background-color: #131313;
+            outline: none;
+            padding: 15px 30px;
+            font-size: 30px;
+            border: none;
+            border: 3px solid white;
+            font-family: 'Broken Detroit', sans-serif;
+            color: white;
+            transition: 0.5s;
+            visibility: hidden;
+        }
+        
+        .butshow:hover {
+            border-radius: 10px;
+        }
+        
+        @keyframes appear {
+            0% {
+                opacity: 0;
+                transform: translateY(70px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0px);
+            }
+        }
+        
+        @keyframes movedown {
+            0% {
+                opacity: 0;
+                color: red;
+            }
+            100% {
+                opacity: 1;
+                color: white;
+            }
+        }
+        
+        @keyframes blick {
+            0% {
+                text-shadow: 0px 0px 5px #99449F;
+            }
+            40% {
+                text-shadow: 0px 0px 30px #99449F;
+            }
+            100% {
+                text-shadow: 0px 0px 10px #99449F;
+            }
+        }
+        
+        @media (max-width: 1629px) {
+            .pat4 img,
+            .pat4-1 img,
+            .pat3 img,
+            .pat3-1 img,
+            .pat2 img,
+            .pat2-1 img,
+            .pat1-2 img,
+            .pat1 img {
+                width: 700px;
+            }
+        }
+        
+        @media (max-width: 1598px) {
+            .jun {
+                font-size: 200px;
+            }
+            .col-2,
+            .col {
+                gap: 60px;
+            }
+            .frag5 img,
+            .frag6 img,
+            .frag4 img,
+            .frag3 img,
+            .frag2 img,
+            .frag1 img {
+                width: 350px;
+            }
+        }
+        
+        @media (max-width: 1417px) {
+            .jun {
+                font-size: 170px;
+            }
+            .pat4 img,
+            .pat4-1 img,
+            .pat3 img,
+            .pat3-1 img,
+            .pat2 img,
+            .pat2-1 img,
+            .pat1-2 img,
+            .pat1 img {
+                width: 600px;
+            }
+        }
+        
+        @media (max-width: 1400px) {
+            .frag5,
+            .frag6,
+            .frag4,
+            .frag3,
+            .frag2,
+            .frag1 {
+                display: grid;
+                grid-template-columns: 600px 600px;
+                text-align: center;
+            }
+            .frag5 img,
+            .frag6 img,
+            .frag4 img,
+            .frag3 img,
+            .frag2 img,
+            .frag1 img {
+                width: 450px;
+            }
+        }
+        
+        @media (max-width: 1346px) {
+            .col-2,
+            .col {
+                display: grid;
+            }
+        }
+        
+        @media (max-width: 1218px) {
+            .blaster {
+                display: none;
+            }
+            .crystal2 {
+                text-align: left;
+            }
+            .characters {
+                margin-top: 70px;
+            }
+            .sec1,
+            .sec2,
+            .sec3,
+            .sec4 {
+                display: grid;
+            }
+        }
+        
+        @media (max-width: 1210px) {
+            .frag5 img,
+            .frag6 img,
+            .frag4 img,
+            .frag3 img,
+            .frag2 img,
+            .frag1 img {
+                width: 350px;
+            }
+            .frag5,
+            .frag6,
+            .frag4,
+            .frag3,
+            .frag2,
+            .frag1 {
+                grid-template-columns: 400px 400px;
+            }
+            .jun {
+                font-size: 140px;
+            }
+            .img img {
+                width: 600px;
+                margin-top: 40px;
+            }
+            .part1 {
+                text-align: center;
+            }
+            .rights {
+                margin-top: 40px;
+            }
+            .social {
+                text-align: center;
+                margin-top: 40px;
+                justify-content: center;
+                margin-left: 30px;
+            }
+        }
+        
+        @media (max-width: 1036px) {
+            .jun {
+                font-size: 100px;
+            }
+            .img img {
+                width: 500px;
+                margin-top: 60px;
+            }
+            .butshow {
+                visibility: visible;
+            }
+            /* .frag4,
+            .frag5,
+            .frag6 {
+                display: none;
+            } */
+        }
+        
+        @media (max-width: 942px) {
+            .fight {
+                font-size: 80px;
+            }
+        }
+        
+        @media (max-width: 800px) {
+            .jun {
+                font-size: 80px;
+            }
+            .img img {
+                width: 400px;
+                margin-top: 120px;
+            }
+            .fight {
+                font-size: 65px;
+            }
+            .crystal2,
+            .crystal {
+                display: none;
+            }
+            .new {
+                font-size: 30px;
+            }
+            .links {
+                font-size: 25px;
+            }
+            .des {
+                font-size: 15px;
+            }
+            .frag5,
+            .frag6,
+            .frag4,
+            .frag3,
+            .frag2,
+            .frag1 {
+                grid-template-columns: 300px 320px;
+                text-align: center;
+            }
+        }
+        
+        @media (max-width: 680px) {
+            .frag5 img,
+            .frag6 img,
+            .frag4 img,
+            .frag3 img,
+            .frag2 img,
+            .frag1 img {
+                width: 300px;
+            }
+            .jun {
+                font-size: 60px;
+            }
+            .img img {
+                width: 350px;
+                margin-top: 260px;
+            }
+        }
+        
+        @media (max-width: 642px) {
+            .fight {
+                font-size: 55px;
+            }
+            .des {
+                font-size: 13px;
+            }
+            .pat4 img,
+            .pat4-1 img,
+            .pat3 img,
+            .pat3-1 img,
+            .pat2 img,
+            .pat2-1 img,
+            .pat1-2 img,
+            .pat1 img {
+                width: 500px;
+            }
+        }
+        
+        @media (max-width: 618px) {
+            .frag5 img,
+            .frag6 img,
+            .frag4 img,
+            .frag3 img,
+            .frag2 img,
+            .frag1 img {
+                width: 250px;
+            }
+            .frag5,
+            .frag6,
+            .frag4,
+            .frag3,
+            .frag2,
+            .frag1 {
+                grid-template-columns: 200px 250px;
+                text-align: center;
+            }
+        }
+        
+        @media (max-width: 580px) {
+            .links {
+                font-size: 20px;
+            }
+        }
+        
+        @media (max-width: 560px) {
+            .jun {
+                font-size: 45px;
+            }
+            .img img {
+                width: 300px;
+                margin-top: 70px;
+            }
+            .des {
+                font-size: 11px;
+            }
+        }
+        
+        @media (max-width: 536px) {
+            .fight {
+                font-size: 45px;
+            }
+        }
+        
+        @media (max-width: 514px) {
+            .pat4 img,
+            .pat4-1 img,
+            .pat3 img,
+            .pat3-1 img,
+            .pat2 img,
+            .pat2-1 img,
+            .pat1-2 img,
+            .pat1 img {
+                width: 350px;
+            }
+        }
+        
+        @media (max-width: 468px) {
+            .links {
+                font-size: 15px;
+            }
+            .jun {
+                font-size: 40px;
+            }
+            .img img {
+                width: 300px;
+                margin-top: 150px;
+            }
+            .des {
+                font-size: 9px;
+            }
+            .new {
+                font-size: 20px;
+            }
+        }
+        
+        @media (max-width: 468px) {
+            .wrap1 img,
+            .wrap2 img,
+            .wrap3 img,
+            .wrap4 img,
+            .wrap5 img,
+            .wrap6 img {
+                width: 300px;
+            }
+            .char {
+                font-size: 40px;
+            }
+            .fight {
+                font-size: 35px;
+            }
+            .cardes {
+                font-size: 15px;
+            }
+        }
+        
+        @media (max-width: 450px) {
+            .frag5,
+            .frag6,
+            .frag4,
+            .frag3,
+            .frag2,
+            .frag1 {
+                display: block;
+            }
+        }
+        
+        @media (max-width: 441px) {
+            .jun {
+                font-size: 30px;
+            }
+            .img img {
+                margin-top: 240px;
+            }
+            .cardes {
+                font-size: 11px;
+            }
+            .social {
+                display: grid;
+                grid-template-columns: 40px 40px 40px;
+            }
+            .fa-discord {
+                justify-content: center;
+            }
+        }
+        
+        @media (max-width: 400px) {
+            .wrap1 img,
+            .wrap2 img,
+            .wrap3 img,
+            .wrap4 img,
+            .wrap5 img,
+            .wrap6 img {
+                width: 240px;
+            }
+            .cardes {
+                font-size: 9px;
+            }
+            .img img {
+                width: 200px;
+            }
+        }
