@@ -479,7 +479,7 @@
             }
             .img img {
                 width: 500px;
-                margin-top: 60px;
+                margin-top: 160px;
             }
             .butshow {
                 visibility: visible;
@@ -593,6 +593,9 @@
             .links {
                 font-size: 20px;
             }
+            .img img {
+                margin-top: 380px;
+            }
         }
         
         @media (max-width: 560px) {
@@ -611,6 +614,9 @@
         @media (max-width: 536px) {
             .fight {
                 font-size: 45px;
+            }
+            .img img {
+                margin-top: 700px;
             }
         }
         
